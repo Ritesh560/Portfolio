@@ -1,18 +1,18 @@
 import { ReactComponent as ContactImage } from "./contact-image.svg"
-import { ReactComponent as EmailLogo } from "./email.jpg"
+import { ReactComponent as EmailLogo } from "./email.svg"
 import { ReactComponent as FacebookLogoOutline } from "./facebook-outline.svg"
 import { ReactComponent as FithubLogoOutline } from "./github-outline.svg"
-import { ReactComponent as GithubLogo } from "./github.jpg"
+import { ReactComponent as GithubLogo } from "./github.svg"
 import { ReactComponent as InstagramLogoOutline } from "./instagram-outline.svg"
 import { ReactComponent as LinkdinLogoOutline } from "./linkdin-outline.svg"
-import { ReactComponent as LinkdinLogo } from "./linkdin.jpg"
-import { ReactComponent as LocationIcon } from "./location.jpg"
+import { ReactComponent as LinkdinLogo } from "./linkdin.svg"
+import { ReactComponent as LocationIcon } from "./location.svg"
 import { ReactComponent as NewTabIcon } from "./new-tab.svg"
-import { ReactComponent as ProfilePicDark } from "./profile-pic-dark.jpg"
-import { ReactComponent as ProfilePicLight } from "./profile-pic-light.jpg"
+import { ReactComponent as ProfilePicDark } from "./profile-pic-dark.svg"
+import { ReactComponent as ProfilePicLight } from "./profile-pic-light.svg"
 import { ReactComponent as Send } from "./send.svg"
-import { ReactComponent as Telephone } from "./telephone.jpg"
-import { ReactComponent as TwitterLogo } from "./twitter.jpg"
+import { ReactComponent as Telephone } from "./telephone.svg"
+import { ReactComponent as TwitterLogo } from "./twitter.svg"
 import { ReactComponent as TwitterLogoOutline } from "./twitter-outline.svg"
 
 export default {
@@ -33,22 +33,3 @@ export default {
   twitter_logo: TwitterLogo,
   twitter_logo_outline: TwitterLogoOutline,
 }
-
-// export default {
-//   ContactImage,
-//   EmailLogo,
-//   FacebookLogoOutline,
-//   FithubLogoOutline,
-//   GithubLogo,
-//   InstagramLogoOutline,
-//   LinkdinLogoOutline,
-//   LinkdinLogo,
-//   LocationIcon,
-//   NewTabIcon,
-//   ProfilePicDark,
-//   ProfilePicLight,
-//   Send,
-//   Telephone,
-//   TwitterLogo,
-//   TwitterLogoOutline,
-// }

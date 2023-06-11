@@ -10,10 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@svgr/webpack": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^5.1.3",
     "vite-plugin-svgr": "^3.2.0"
   },
   "devDependencies": {
