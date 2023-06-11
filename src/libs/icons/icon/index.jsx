@@ -1,4 +1,5 @@
-import Icon from "./icons"
+import React from "react"
+import Icon from "./icon"
 
 export const ContactImage = (props) => <Icon {...props} name="contact_image" />
 export const EmailLogo = (props) => <Icon {...props} name="email_logo" />

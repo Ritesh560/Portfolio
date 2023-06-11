@@ -33,3 +33,22 @@ export default {
   twitter_logo: TwitterLogo,
   twitter_logo_outline: TwitterLogoOutline,
 }
+
+// export default {
+//   ContactImage,
+//   EmailLogo,
+//   FacebookLogoOutline,
+//   FithubLogoOutline,
+//   GithubLogo,
+//   InstagramLogoOutline,
+//   LinkdinLogoOutline,
+//   LinkdinLogo,
+//   LocationIcon,
+//   NewTabIcon,
+//   ProfilePicDark,
+//   ProfilePicLight,
+//   Send,
+//   Telephone,
+//   TwitterLogo,
+//   TwitterLogoOutline,
+// }

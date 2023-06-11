@@ -1,10 +1,11 @@
 import "./App.css"
-import { GithubLogo } from "./libs/icons"
+import { ContactImage } from "./libs/icons"
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">
-      Hello world! <GithubLogo />{" "}
-    </h1>
+    <>
+      <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+      <ContactImage />
+    </>
   )
 }
 

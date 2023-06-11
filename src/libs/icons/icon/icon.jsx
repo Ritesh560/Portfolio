@@ -1,5 +1,6 @@
-import { propTypes } from "./Icon.props"
-import iconMap from "./assets/icon-map"
+import React from "react"
+import { propTypes } from "./icon.props"
+import iconMap from "../assets/icons/icon-map"
 
 const EmptyIcon = () => <div />
 
