@@ -1,6 +1,8 @@
 import React from "react"
 import Icon from "./icon"
 
+export const AvatarDark = (props) => <Icon {...props} name="avatar_dark" />
+export const AvatarLight = (props) => <Icon {...props} name="avatar_light" />
 export const ContactImage = (props) => <Icon {...props} name="contact_image" />
 export const EmailLogo = (props) => <Icon {...props} name="email_logo" />
 export const FacebookLogoOutline = (props) => <Icon {...props} name="facebook_logo_outline" />
