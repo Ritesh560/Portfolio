@@ -1,3 +1,5 @@
+import { ReactComponent as AvatarDark } from "./avatar.svg"
+import { ReactComponent as AvatarLight } from "./avatar_light.svg"
 import { ReactComponent as ContactImage } from "./contact-image.svg"
 import { ReactComponent as EmailLogo } from "./email.svg"
 import { ReactComponent as FacebookLogoOutline } from "./facebook-outline.svg"
@@ -16,6 +18,8 @@ import { ReactComponent as TwitterLogo } from "./twitter.svg"
 import { ReactComponent as TwitterLogoOutline } from "./twitter-outline.svg"
 
 export default {
+  avatar_dark: AvatarDark,
+  avatar_light: AvatarLight,
   contact_image: ContactImage,
   email_logo: EmailLogo,
   facebook_logo_outline: FacebookLogoOutline,
