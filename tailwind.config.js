@@ -4,13 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: "#1b1b1b",
-        light: "#f5f5f5",
+        dark: "#111827",
+        light: "#FFFFFF",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
       },
-      backgroundImage: { circularLight: "repeating-radial-gradient(rgba(0,0,0,0.4) 0px, #f5f5f5 5px, #f5f5f5 100px )" },
+      backgroundImage: { circularLight: "repeating-radial-gradient(#111827 0px, #FFFFFF 5px, #FFFFFF 100px )", circularDark: "repeating-radial-gradient(#FFFFFF 0px, #111827 5px, #111827 100px )" },
     },
   },
   plugins: [],
