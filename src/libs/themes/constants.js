@@ -25,3 +25,7 @@ export const lightTheme = {
     backgroundClip: "text",
   },
 }
+
+export const apply = {
+  border: "2px solid white",
+}

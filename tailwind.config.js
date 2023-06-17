@@ -6,6 +6,8 @@ export default {
       colors: {
         dark: "#111827",
         light: "#FFFFFF",
+        darkPrimary: "#EAB308",
+        lightPrimary: "#7914E2",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

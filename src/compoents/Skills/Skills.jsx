@@ -1,8 +1,5 @@
-import profile from "../../libs/icons/assets/icons/profile_pic_dark.svg"
 import { motion } from "framer-motion"
 import { mySkills } from "./components/constants"
-
-import styles from "./Skills.module.scss"
 
 const Skill = ({ name, x, y }) => {
   return (

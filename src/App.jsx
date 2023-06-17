@@ -6,6 +6,8 @@ import Home from "./compoents/Home/Home"
 import Navbar from "./compoents/Navbar/Navbar"
 import Skills from "./compoents/Skills/Skills"
 import { darkTheme } from "./libs/themes/constants"
+import Experience from "./compoents/Experience/Experience"
+import Projects from "./compoents/Projects/Projects"
 const App = () => {
   const [theme, setTheme] = useState(darkTheme)
 
@@ -15,6 +17,8 @@ const App = () => {
       <Home theme={theme} />
       <About theme={theme} />
       <Skills theme={theme} />
+      <Experience theme={theme} />
+      <Projects theme={theme} />
       <Contact theme={theme} />
     </div>
   )
