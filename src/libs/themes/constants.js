@@ -1,7 +1,7 @@
 export const darkTheme = {
   theme: "dark",
   background: "#111827",
-  text: "#FFFFFF",
+  text: "#f5f5f5",
   highLighter: "#EAB308",
   gradient: "linear-gradient(to top right, #912cf9 14%, #db0adb 93.79%, #c50cdd 93.8%, #b5bcf9 93.8%)",
   gradentifyText: {

@@ -3,7 +3,7 @@ import { mySkills } from "./components/constants"
 
 const Skill = ({ name, x, y }) => {
   return (
-    <motion.div className="flex items-center dark justify-center rounded-full font-bold bg-dark dark:bg-light text-light dark:text-dark py-3 px-6 shadow-dark cursor-pointer absolute" whileHover={{ scale: 1.05 }} initial={{ x: 0, y: 0 }} whileInView={{ x: x, y: y }} transition={{ duration: 1.5 }}>
+    <motion.div className="flex items-center dark justify-center rounded-full font-bold bg-dark dark:bg-light text-light dark:text-dark py-3 px-6 shadow-dark cursor-pointer absolute" whileHover={{ scale: 1.05 }} initial={{ x: 0, y: 0 }} whileInView={{ x: x, y: y }} transition={{ duration: 1.5 }} viewport={{ once: true }}>
       {name}
     </motion.div>
   )

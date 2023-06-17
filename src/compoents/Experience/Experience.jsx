@@ -4,7 +4,7 @@ import { useRef } from "react"
 import LitIcon from "../Liticon"
 import { experiences } from "./components/constants"
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ position, company, companyLink, time, work }) => {
   const litIconRef = useRef(null)
   return (
     <li ref={litIconRef} className="my-8  first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between ">
@@ -13,14 +13,14 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <h3 className=" capitalize font-bold text-2xl">
           {position}{" "}
           {companyLink?.length ? (
-            <a href={companyLink} target="_blank" className="text-primary capitalize">
+            <a href={companyLink} target="_blank" rel="noopener noreferrer" className="text-primary capitalize">
               <span className="text-lightPrimary dark dark:text-darkPrimary">@{company}</span>
             </a>
           ) : (
             <span className=" text-lightPrimary dark dark:text-darkPrimary">@{company}</span>
           )}
         </h3>
-        <span className="capitalize font-medium dark text-dark dark:text-light">{time}</span>
+        <span className="capitalize font-medium text-sm opacity-80 dark text-dark dark:text-light">{time}</span>
         <p className=" font-medium w-full ">{work}</p>
       </div>
     </li>
