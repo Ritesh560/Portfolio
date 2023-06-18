@@ -8,6 +8,7 @@ import Skills from "./compoents/Skills/Skills"
 import { darkTheme } from "./libs/themes/constants"
 import Experience from "./compoents/Experience/Experience"
 import Projects from "./compoents/Projects/Projects"
+import Footer from "./compoents/Footer/Footer"
 const App = () => {
   const [theme, setTheme] = useState(darkTheme)
 
@@ -20,6 +21,7 @@ const App = () => {
       <Experience theme={theme} />
       <Projects theme={theme} />
       <Contact theme={theme} />
+      <Footer />
     </div>
   )
 }

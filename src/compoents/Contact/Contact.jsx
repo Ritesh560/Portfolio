@@ -10,7 +10,7 @@ function Contact({ theme }) {
         Contact
       </div>
 
-      <div className="w-full flex items-center justify-around">
+      <div className="w-full flex items-center justify-around flex-col gap-8 lg:flex-row lg:gap-0">
         <div className="w-2/5 flex flex-col items-center gap-4">
           <p className=" font-semibold text-xl">Let’s connect and make something new, different and more meaningful.</p>
           <div id="inputbox" className="w-full text-lg font-normal flex flex-col gap-2 dark text-light dark:text-light ">
@@ -34,7 +34,7 @@ function Contact({ theme }) {
         </div>
       </div>
 
-      <div id="contact_details" className="mt-36 w-[90%] md:w-[500px] flex justify-center flex-col gap-6 ">
+      <div id="contact_details" className="mt-24  w-[90%] md:w-[500px] md:ml-36 flex justify-center flex-col gap-6 ">
         <div id="address" className="flex items-center justify-start gap-4 ">
           <div className=" h-12 w-[75px] flex items-center justify-center bg-light rounded-md">
             <img src={locationIcon} alt="" />
