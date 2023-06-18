@@ -19,7 +19,7 @@ const App = () => {
       <Skills theme={theme} />
       <Experience theme={theme} />
       <Projects theme={theme} />
-      <Contact theme={theme} />
+      {/* <Contact theme={theme} /> */}
     </div>
   )
 }
