@@ -1,7 +1,7 @@
 import styles from "./Experience.module.scss"
 import { motion, useScroll } from "framer-motion"
 import { useRef } from "react"
-import LitIcon from "../Liticon"
+import LitIcon from "./components/LitIcon"
 import { experiences } from "./components/constants"
 
 const Details = ({ position, company, companyLink, time, work }) => {
