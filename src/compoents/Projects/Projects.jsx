@@ -36,7 +36,7 @@ const Projects = ({ theme }) => {
         </div>
         <motion.div id="cards" className="flex flex-wrap justify-center items-center gap-16 md:gap-36 " initial="hidden" variants={containerVariants} whileInView="visible">
           {projects.map((project, i) => (
-            <motion.div id="card" key={i} className=" flex flex-col items-center  bg-[#f5f5f5] shadow h-[430px] w-[320px] rounded-xl" variants={cardVariants}>
+            <motion.div id="card" key={i} className=" flex flex-col items-center  bg-[#ffffff] shadow h-[430px] w-[320px] rounded-xl" variants={cardVariants}>
               <a href={project?.link} target="_blank" rel="noopener noreferrer">
                 <img src={project?.pic} className=" h-[140px] flex my-3 shadow rounded-xl " />
               </a>

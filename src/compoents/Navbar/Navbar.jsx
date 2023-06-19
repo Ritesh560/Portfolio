@@ -1,11 +1,11 @@
 import UseThemeSwitcher from "../../hooks/useThemeSwitcher"
-import { DarkMode, FacebookLogoOutline, GithubLogo, InstagramLogoOutline, LightMode, LinkdinLogo, TwitterLogo } from "../../libs/icons/icon"
+import { DarkMode, FacebookLogoOutline, GithubLogo, LightMode, LinkdinLogo, TwitterLogo } from "../../libs/icons/icon"
 import { darkTheme, lightTheme } from "../../libs/themes/constants"
 import { urls } from "../constants"
 import { NavComponents } from "./components/constants"
 
 const Navbar = ({ theme, setTheme }) => {
-  const { mode, setMode } = UseThemeSwitcher()
+  const [mode, setMode] = UseThemeSwitcher()
 
   const handleDarkMode = () => {
     setTheme(darkTheme)
@@ -17,7 +17,7 @@ const Navbar = ({ theme, setTheme }) => {
   }
 
   return (
-    <div className="flex p-4 px-8  justify-between border-s-orange-900 w-[100%] fixed top-0 left-0 z-50 dark bg-light dark:bg-dark bg-opacity-50 dark:bg-opacity-50">
+    <div className="flex p-4 px-8  justify-between border-s-orange-900 w-[100%] fixed top-0 left-0 z-50 bg-light dark:bg-dark bg-opacity-70 dark:bg-opacity-50">
       <div className="flex gap-6 uppercase items-center h-6">
         {Object.keys(NavComponents)?.map((key) => (
           <div key={key} className="text-xl" style={{ color: theme.text }}>
@@ -30,7 +30,7 @@ const Navbar = ({ theme, setTheme }) => {
           <LinkdinLogo className="scale-150" />
         </a>
         <a href={urls?.github} target="_blank" rel="noopener noreferrer">
-          <GithubLogo className=" scale-150" />
+          <GithubLogo className=" scale-150 text-dark dark:text-light" />
         </a>
         <a href={urls?.twitter} target="_blank" rel="noopener noreferrer">
           <TwitterLogo className=" scale-150" />

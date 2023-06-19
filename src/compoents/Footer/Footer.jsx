@@ -3,7 +3,7 @@ import { urls } from "../constants"
 
 const Footer = () => {
   return (
-    <div className=" -mx-16 mt-16 flex items-center justify-between py-1 px-8 text-2xl font-semibold border-t border-solid dark border-dark dark:border-light">
+    <div className=" -mx-16 mt-16 flex items-center justify-between py-1 px-8 text-2xl font-semibold border-t border-solid border-dark dark:border-light">
       <p>Copyright @2023</p>
       <p>Ritesh Kumar</p>
       <div id="icons" className="flex items-center justify-between gap-4 ">

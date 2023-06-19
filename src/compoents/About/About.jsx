@@ -1,4 +1,5 @@
 import profile from "../../libs/icons/assets/icons/profile_pic_dark.svg"
+import profileLight from "../../libs/icons/assets/icons/profile_pic_light.svg"
 
 const About = ({ theme }) => {
   return (
@@ -12,7 +13,7 @@ const About = ({ theme }) => {
         </div>
       </div>
       <div id="profilePic" className="w-full order-1 md:w-3/8 flex items-center justify-center lg:order-2">
-        <img src={profile} alt="" className="w-8/12 flex justify-center" />
+        <img src={theme.theme === "dark" ? profile : profileLight} alt="" className="w-8/12 flex justify-center" />
       </div>
     </div>
   )

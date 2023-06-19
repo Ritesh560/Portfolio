@@ -15,13 +15,13 @@ const Details = ({ position, company, companyLink, time, work }) => {
           {position}{" "}
           {companyLink?.length ? (
             <a href={companyLink} target="_blank" rel="noopener noreferrer" className="text-primary capitalize">
-              <span className="text-lightPrimary dark dark:text-darkPrimary">@{company}</span>
+              <span className="text-lightPrimary dark:text-darkPrimary">@{company}</span>
             </a>
           ) : (
-            <span className=" text-lightPrimary dark dark:text-darkPrimary">@{company}</span>
+            <span className=" text-lightPrimary dark:text-darkPrimary">@{company}</span>
           )}
         </h3>
-        <span className="capitalize font-medium text-sm opacity-80 dark text-dark dark:text-light">{time}</span>
+        <span className="capitalize font-medium text-sm opacity-80 text-dark dark:text-light">{time}</span>
         <p className=" font-medium w-full ">{work}</p>
       </div>
     </li>
@@ -43,7 +43,7 @@ const Experience = ({ theme }) => {
       </div>
 
       <div ref={lineRef} className="w-[75%] mx-auto relative">
-        <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-1 w-[4px] h-full dark bg-dark origin-top dark:bg-light " />
+        <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top dark:bg-light " />
         <ul className="w-full flex flex-col items-center justify-between ml-4">
           {experiences.map((experience, i) => (
             <Details key={i} position={experience?.position} company={experience?.company} companyLink={experience?.companyLink} time={experience?.time} work={experience?.work} />

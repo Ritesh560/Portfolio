@@ -7,13 +7,15 @@ function UseThemeSwitcher() {
     if (mode === "light") {
       window.localStorage.setItem("theme", "light")
       document.documentElement.classList.remove("dark")
+      console.log(mode)
     } else {
       window.localStorage.setItem("theme", "dark")
       document.documentElement.classList.add("dark")
+      console.log(mode)
     }
   }, [mode])
 
-  return { mode, setMode }
+  return [mode, setMode]
 }
 
 export default UseThemeSwitcher
