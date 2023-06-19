@@ -8,6 +8,8 @@ export default {
         light: "#f5f5f5",
         darkPrimary: "#EAB308",
         lightPrimary: "#7914E2",
+        darkGradient: "linear-gradient(to top right, #912cf9 14%, #db0adb 93.79%, #c50cdd 93.8%, #b5bcf9 93.8%)",
+        lightGradient: "linear-gradient(208.31deg, #081fea 14%, #c50cdd 93.79%, #db0adb 93.8%, #7914e2 93.8%)",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

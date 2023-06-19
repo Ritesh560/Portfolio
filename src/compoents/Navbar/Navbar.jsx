@@ -1,8 +1,21 @@
-import { FacebookLogoOutline, GithubLogo, InstagramLogoOutline, LinkdinLogo, TwitterLogo } from "../../libs/icons/icon"
+import UseThemeSwitcher from "../../hooks/useThemeSwitcher"
+import { DarkMode, FacebookLogoOutline, GithubLogo, InstagramLogoOutline, LightMode, LinkdinLogo, TwitterLogo } from "../../libs/icons/icon"
+import { darkTheme, lightTheme } from "../../libs/themes/constants"
 import { urls } from "../constants"
 import { NavComponents } from "./components/constants"
 
 const Navbar = ({ theme, setTheme }) => {
+  const { mode, setMode } = UseThemeSwitcher()
+
+  const handleDarkMode = () => {
+    setTheme(darkTheme)
+    setMode("dark")
+  }
+  const handleLightMode = () => {
+    setTheme(lightTheme)
+    setMode("light")
+  }
+
   return (
     <div className="flex p-4 px-8  justify-between border-s-orange-900 w-[100%] fixed top-0 left-0 z-50 dark bg-light dark:bg-dark bg-opacity-50 dark:bg-opacity-50">
       <div className="flex gap-6 uppercase items-center h-6">
@@ -26,6 +39,7 @@ const Navbar = ({ theme, setTheme }) => {
         <a href={urls?.facebook} target="_blank" rel="noopener noreferrer">
           <FacebookLogoOutline className="scale-150 h-5" />
         </a>
+        {theme === darkTheme ? <LightMode className=" cursor-pointer" onClick={handleLightMode} /> : <DarkMode className=" cursor-pointer" onClick={handleDarkMode} />}
       </div>
     </div>
   )

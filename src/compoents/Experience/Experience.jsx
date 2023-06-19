@@ -3,6 +3,7 @@ import { motion, useScroll } from "framer-motion"
 import { useRef } from "react"
 import LitIcon from "./components/LitIcon"
 import { experiences } from "./components/constants"
+import commonStyles from "../common_styles.module.scss"
 
 const Details = ({ position, company, companyLink, time, work }) => {
   const litIconRef = useRef(null)
@@ -36,8 +37,8 @@ const Experience = ({ theme }) => {
   })
 
   return (
-    <div id="Experience" className="mt-4 gap-7 flex flex-col items-center justify-center  md:mt-32 ">
-      <div id="header" className="text-7xl font-bold mb-4" style={theme.gradentifyText}>
+    <div id="experience" className="mt-4 gap-7 flex flex-col items-center justify-center  md:mt-32 ">
+      <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl font-bold mb-4`}>
         Experience
       </div>
 

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { mySkills } from "./components/constants"
+import commonStyles from "../common_styles.module.scss"
 
 const Skill = ({ name, x, y }) => {
   return (
@@ -12,7 +13,7 @@ const Skill = ({ name, x, y }) => {
 const Skills = ({ theme }) => {
   return (
     <div id="skills" className="mt-4 gap-7 flex flex-col items-center justify-center  md:mt-32 ">
-      <div id="header" className="text-7xl font-bold mb-4" style={theme.gradentifyText}>
+      <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl font-bold mb-4`}>
         Skills
       </div>
 

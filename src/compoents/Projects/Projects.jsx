@@ -1,6 +1,7 @@
 import { GithubLogoOutline, NewTabIcon } from "../../libs/icons/icon"
 import { projects } from "./components/constants"
 import { motion } from "framer-motion"
+import commonStyles from "../common_styles.module.scss"
 
 const Projects = ({ theme }) => {
   const containerVariants = {
@@ -28,9 +29,9 @@ const Projects = ({ theme }) => {
   // }
 
   return (
-    <div className="">
+    <div id="projects">
       <div id="Experience" className="mt-4 gap-7 flex flex-col items-center justify-center  md:mt-20 ">
-        <div id="header" className="text-7xl font-bold mb-8" style={theme.gradentifyText}>
+        <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl font-bold mb-8`}>
           Projects
         </div>
         <motion.div id="cards" className="flex flex-wrap justify-center items-center gap-16 md:gap-36 " initial="hidden" variants={containerVariants} whileInView="visible">

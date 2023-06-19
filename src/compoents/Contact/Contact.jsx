@@ -2,11 +2,12 @@ import { ContactImage, Send } from "../../libs/icons/icon"
 import locationIcon from "../../libs/icons/assets/icons/location.svg"
 import emailLogo from "../../libs/icons/assets/icons/email.svg"
 import telephone from "../../libs/icons/assets/icons/telephone.svg"
+import commonStyles from "../common_styles.module.scss"
 
 function Contact({ theme }) {
   return (
     <div id="contact" className="mt-4 mb-8 gap-7 flex flex-col items-center justify-center  md:mt-20 ">
-      <div id="header" className="text-7xl font-bold md:mb-8" style={theme.gradentifyText}>
+      <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl font-bold md:mb-8`}>
         Contact
       </div>
 

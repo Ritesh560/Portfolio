@@ -5,11 +5,13 @@ import { ReactComponent as BlogHub } from "./blogHub.svg"
 import { ReactComponent as BRMeals } from "./BRMeals.svg"
 import { ReactComponent as ChatZone } from "./chatZone.svg"
 import { ReactComponent as ContactImage } from "./contact-image.svg"
+import { ReactComponent as DarkMode } from "./dark_mode.svg"
 import { ReactComponent as DrumKit } from "./drumkit.svg"
 import { ReactComponent as EmailLogo } from "./email.svg"
 import { ReactComponent as FacebookLogoOutline } from "./facebook-outline.svg"
 import { ReactComponent as FithubLogoOutline } from "./github-outline.svg"
 import { ReactComponent as GithubLogo } from "./github.svg"
+import { ReactComponent as LightMode } from "./light_mode.svg"
 import { ReactComponent as InstagramLogoOutline } from "./instagram-outline.svg"
 import { ReactComponent as LinkdinLogoOutline } from "./linkdin-outline.svg"
 import { ReactComponent as LinkdinLogo } from "./linkdin.svg"
@@ -31,11 +33,13 @@ export default {
   br_meals: BRMeals,
   chat_zone: ChatZone,
   contact_image: ContactImage,
+  dark_mode: DarkMode,
   drumkit: DrumKit,
   email_logo: EmailLogo,
   facebook_logo_outline: FacebookLogoOutline,
   github_logo_outline: FithubLogoOutline,
   github_logo: GithubLogo,
+  light_mode: LightMode,
   instagram_logo_outline: InstagramLogoOutline,
   linkdin_logo_outline: LinkdinLogoOutline,
   linkdin_logo: LinkdinLogo,

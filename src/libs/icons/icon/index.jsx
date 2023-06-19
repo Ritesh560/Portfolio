@@ -9,10 +9,12 @@ export const BRMeals = (props) => <Icon {...props} name="br_meals" />
 export const ChatZone = (props) => <Icon {...props} name="chat_zone" />
 export const DrumKit = (props) => <Icon {...props} name="drumkit" />
 export const ContactImage = (props) => <Icon {...props} name="contact_image" />
+export const DarkMode = (props) => <Icon {...props} name="dark_mode" />
 export const EmailLogo = (props) => <Icon {...props} name="email_logo" />
 export const FacebookLogoOutline = (props) => <Icon {...props} name="facebook_logo_outline" />
 export const GithubLogoOutline = (props) => <Icon {...props} name="github_logo_outline" />
 export const GithubLogo = (props) => <Icon {...props} name="github_logo" />
+export const LightMode = (props) => <Icon {...props} name="light_mode" />
 export const InstagramLogoOutline = (props) => <Icon {...props} name="instagram_logo_outline" />
 export const LinkdinLogoOutline = (props) => <Icon {...props} name="linkdin_logo_outline" />
 export const LinkdinLogo = (props) => <Icon {...props} name="linkdin_logo" />
