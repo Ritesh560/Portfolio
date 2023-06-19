@@ -5,7 +5,7 @@ import Contact from "./compoents/Contact/Contact"
 import Home from "./compoents/Home/Home"
 import Navbar from "./compoents/Navbar/Navbar"
 import Skills from "./compoents/Skills/Skills"
-import { darkTheme, lightTheme } from "./libs/themes/constants"
+import { darkTheme } from "./libs/themes/constants"
 import Experience from "./compoents/Experience/Experience"
 import Projects from "./compoents/Projects/Projects"
 import Footer from "./compoents/Footer/Footer"
@@ -21,7 +21,7 @@ const App = () => {
       <Experience theme={theme} />
       <Projects theme={theme} />
       <Contact theme={theme} />
-      <Footer />
+      <Footer theme={theme} />
     </div>
   )
 }

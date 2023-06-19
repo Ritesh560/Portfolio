@@ -26,7 +26,7 @@ function Contact({ theme }) {
             <label>Message</label>
             <textarea rows={4} type="text" name="message" id="message" placeholder="Type your message here" className="resize-none h-24 overflow-hidden rounded-md p-2 shadow bg-blue-500 bg-opacity-10 border-none outline-none" />
           </div>
-          <div className="flex items-center justify-center cursor-pointer gap-2 px-4 py-2 mr-auto rounded-lg font-bold text-xl border border-solid bg-dark dark:bg-none dark:border-light text-light ">
+          <div className="flex items-center justify-center cursor-pointer gap-2 px-4 py-2 mr-auto rounded-lg font-bold text-xl border border-solid bg-dark dark:bg-none dark:border-light text-light hover:opacity-70 ">
             Send <Send height="23px" />
           </div>
         </div>
