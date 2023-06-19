@@ -1,0 +1,15 @@
+@import "../libs/themes/variables";
+
+.darkGradient {
+  background: $darkGradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.lightGradient {
+  background: $lightGradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

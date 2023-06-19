@@ -1,9 +1,9 @@
-import WordPic from "../../../libs/icons/assets/icons/wordpic.svg"
-import Drumkit from "../../../libs/icons/assets/icons/drumkit.svg"
-import ChatZone from "../../../libs/icons/assets/icons/chatZone.svg"
-import BRMeal from "../../../libs/icons/assets/icons/BRMeals.svg"
-import AINews from "../../../libs/icons/assets/icons/AINews.svg"
-import BlogHub from "../../../libs/icons/assets/icons/blogHub.svg"
+import WordPic from "../../../libs/icons/assets/icons/wordpic.png"
+import Drumkit from "../../../libs/icons/assets/icons/drumkit.jpg"
+import ChatZone from "../../../libs/icons/assets/icons/chatZone.jpg"
+import BRMeal from "../../../libs/icons/assets/icons/BRMeals.jpg"
+import AINews from "../../../libs/icons/assets/icons/AINews.jpg"
+import BlogHub from "../../../libs/icons/assets/icons/blogHub.jpg"
 
 export const projects = [
   {
