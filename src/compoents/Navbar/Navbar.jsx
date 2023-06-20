@@ -27,19 +27,19 @@ const Navbar = ({ theme, setTheme }) => {
       </div>
       <div className="flex items-center gap-6 h-8 ">
         <a href={urls?.linkdin} target="_blank" rel="noopener noreferrer">
-          <LinkdinLogo className="scale-150" />
+          <LinkdinLogo className="scale-150 hover:opacity-60" />
         </a>
         <a href={urls?.github} target="_blank" rel="noopener noreferrer">
-          <GithubLogo className=" scale-150 text-dark dark:text-light" />
+          <GithubLogo className=" scale-150 text-dark dark:text-light hover:opacity-60" />
         </a>
         <a href={urls?.twitter} target="_blank" rel="noopener noreferrer">
-          <TwitterLogo className=" scale-150" />
+          <TwitterLogo className="scale-150 hover:opacity-60" />
         </a>
 
         <a href={urls?.facebook} target="_blank" rel="noopener noreferrer">
-          <FacebookLogoOutline className="scale-150 h-5" />
+          <FacebookLogoOutline className="scale-150 h-5 hover:fill-black dark:hover:fill-white" />
         </a>
-        {theme === darkTheme ? <LightMode className=" cursor-pointer" onClick={handleLightMode} /> : <DarkMode className=" cursor-pointer" onClick={handleDarkMode} />}
+        {theme === darkTheme ? <LightMode className=" cursor-pointer hover:fill-light dark:hover:fill-white" onClick={handleLightMode} /> : <DarkMode className=" cursor-pointer hover:fill-black" onClick={handleDarkMode} />}
       </div>
     </div>
   )

@@ -14,20 +14,6 @@ const Projects = ({ theme }) => {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.2 } },
   }
 
-  // const cardsVariants = {
-  //   hidden: {
-  //     x: "100%",
-  //     opacity: 0,
-  //   },
-  //   visible: {
-  //     x: 0,
-  //     opacity: 1,
-  //     transition: {
-  //       duration: 1,
-  //     },
-  //   },
-  // }
-
   return (
     <div id="projects">
       <div id="Experience" className="mt-4 gap-7 flex flex-col items-center justify-center  md:mt-20 ">
@@ -49,7 +35,7 @@ const Projects = ({ theme }) => {
                   View Project <NewTabIcon className=" " />
                 </a>
                 <a href={project?.github} target="_blank" rel="noopener noreferrer">
-                  <GithubLogoOutline className=" hover:scale-110" />
+                  <GithubLogoOutline className=" h-9 hover:fill-black" />
                 </a>
               </div>
             </motion.div>
