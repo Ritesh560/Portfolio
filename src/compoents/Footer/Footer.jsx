@@ -4,7 +4,7 @@ import styles from "./Footer.module.scss"
 
 const Footer = ({ theme }) => {
   return (
-    <div className=" -mx-16 mt-16 flex items-center justify-between py-1 px-8 text-2xl font-semibold border-t border-solid border-dark dark:border-light">
+    <div className="-mx-16 mt-16 flex md:flex-col md:gap-3 md:-mx-8 sm:-mx-2 items-center justify-between py-1 px-8 text-2xl font-semibold border-t border-solid border-dark dark:border-light">
       <p>Copyright @2023</p>
       <p>Ritesh Kumar</p>
       <div id="icons" className={`${theme.theme === "dark" ? styles.logoDark : styles.logoLight} flex items-center justify-between gap-4 `}>
