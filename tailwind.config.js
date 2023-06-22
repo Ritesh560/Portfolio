@@ -15,7 +15,22 @@ export default {
       animation: {
         "spin-slow": "spin 8s linear infinite",
       },
-      backgroundImage: { circularLight: "repeating-radial-gradient(#111827 0px, #f5f5f5 5px, #f5f5f5 100px )", circularDark: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 100px )" },
+      backgroundImage: {
+        circularLight: "repeating-radial-gradient(#111827 0px, #f5f5f5 5px, #f5f5f5 100px )",
+        circularDark: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 100px )",
+        circularLightLg: "repeating-radial-gradient(#111827 0px, #f5f5f5 5px, #f5f5f5 60px )",
+        circularDarkLg: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 60px )",
+        circularLightSm: "repeating-radial-gradient(#111827 0px, #f5f5f5 5px, #f5f5f5 40px )",
+        circularDarkSm: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 40px )",
+      },
+    },
+    screens: {
+      "2xl": { max: "1535px" },
+      xl: { max: "1279px" },
+      lg: { max: "1023px" },
+      md: { max: "800px" },
+      sm: { max: "639px" },
+      xs: { max: "479px" },
     },
   },
   plugins: [],

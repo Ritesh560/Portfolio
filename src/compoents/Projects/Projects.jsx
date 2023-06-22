@@ -16,13 +16,13 @@ const Projects = ({ theme }) => {
 
   return (
     <div id="projects">
-      <div id="Experience" className="mt-4 gap-7 flex flex-col items-center justify-center  md:mt-20 ">
-        <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl font-bold mb-8`}>
+      <div id="Experience" className="mt-20 gap-7 flex flex-col items-center justify-center  md:mt-4 ">
+        <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl lg:text-6xl sm:text-5xl font-bold mb-8`}>
           Projects
         </div>
-        <motion.div id="cards" className="flex flex-wrap justify-center items-center gap-16 md:gap-36 " initial="hidden" variants={containerVariants} whileInView="visible">
+        <motion.div id="cards" className="flex flex-wrap justify-center items-center gap-36 md:gap-16 xs:gap-8 " initial="hidden" variants={containerVariants} whileInView="visible">
           {projects.map((project, i) => (
-            <motion.div id="card" key={i} className=" flex flex-col items-center  bg-[#ffffff] shadow h-[430px] w-[320px] rounded-xl" variants={cardVariants}>
+            <motion.div id="card" key={i} className=" flex flex-col items-center  bg-[#ffffff] shadow min-h-[430px] max-w-[320px] rounded-xl" variants={cardVariants}>
               <a href={project?.link} target="_blank" rel="noopener noreferrer">
                 <img src={project?.pic} className=" h-[140px] flex my-3 shadow rounded-xl " />
               </a>
@@ -31,8 +31,8 @@ const Projects = ({ theme }) => {
                 <p className="text-[14px] text-[#000000] font-normal">{project?.description}</p>
               </div>
               <div id="action_button" className="w-full mt-auto p-4 flex items-center justify-between text-dark">
-                <a href={project?.link} target="_blank" rel="noopener noreferrer" id="project_link" className="h-10 px-4 gap-10 flex items-center font-semibold border border-solid border-dark rounded-md hover:text-light hover:bg-dark">
-                  View Project <NewTabIcon className=" " />
+                <a href={project?.link} target="_blank" rel="noopener noreferrer" id="project_link" className=" py-2 px-4 gap-10 xs:gap-5 flex items-center font-semibold border border-solid border-dark rounded-md hover:text-light hover:bg-dark">
+                  View Project <NewTabIcon />
                 </a>
                 <a href={project?.github} target="_blank" rel="noopener noreferrer">
                   <GithubLogoOutline className=" h-9 hover:fill-black" />

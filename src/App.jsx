@@ -13,7 +13,7 @@ const App = () => {
   const [theme, setTheme] = useState(darkTheme)
 
   return (
-    <div className="flex flex-col gap-2 font-sans px-8 md:px-16" style={{ background: theme.background, color: theme.text }}>
+    <div className="flex flex-col gap-2 font-sans px-16 md:px-8 sm:px-2" style={{ background: theme.background, color: theme.text }}>
       <Navbar theme={theme} setTheme={setTheme} />
       <Home theme={theme} />
       <About theme={theme} />
