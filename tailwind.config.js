@@ -20,8 +20,8 @@ export default {
         circularDark: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 100px )",
         circularLightLg: "repeating-radial-gradient(#111827 0px, #f5f5f5 5px, #f5f5f5 60px )",
         circularDarkLg: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 60px )",
-        circularLightSm: "repeating-radial-gradient(#111827 0px, #f5f5f5 5px, #f5f5f5 40px )",
-        circularDarkSm: "repeating-radial-gradient(#f5f5f5 0px, #111827 5px, #111827 40px )",
+        circularLightSm: "repeating-radial-gradient(#757373 0px, #f5f5f5 5px, #f5f5f5 40px )",
+        circularDarkSm: "repeating-radial-gradient(#bfbdbd 0px, #111827 5px, #111827 40px )",
       },
     },
     screens: {
