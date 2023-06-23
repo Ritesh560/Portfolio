@@ -1,4 +1,3 @@
-import styles from "./Experience.module.scss"
 import { motion, useScroll } from "framer-motion"
 import { useRef } from "react"
 import LitIcon from "./components/LitIcon"
@@ -7,9 +6,15 @@ import commonStyles from "../common_styles.module.scss"
 
 const Details = ({ position, company, companyLink, time, work }) => {
   const litIconRef = useRef(null)
+
+  const { scrollYProgress } = useScroll({
+    target: litIconRef,
+    offset: ["center end", "center center"],
+  })
+
   return (
     <li ref={litIconRef} className="my-8 first:mt-0 last:mb-0 w-[60%] lg:w-[75%] md:w-[85%] sm:w-[98%] mx-auto flex flex-col items-center justify-between ">
-      <LitIcon reference={litIconRef} />
+      <LitIcon scrollYProgress={scrollYProgress} />
       <div>
         <h3 className=" capitalize font-bold text-2xl md:text-xl sm:text-lg">
           {position}{" "}

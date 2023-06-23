@@ -1,10 +1,6 @@
 import { motion, useScroll } from "framer-motion"
 
-function LitIcon({ reference }) {
-  const { scrollYProgress } = useScroll({
-    target: reference,
-    offset: ["center end", "center center"],
-  })
+function LitIcon({ scrollYProgress }) {
   return (
     <figure className="absolute left-0 md:-left-9 sm:-left-11 stroke-dark dark:stroke-light">
       <svg className=" -rotate-90" width="75" height="75" viewBox="0 0 100 100">
