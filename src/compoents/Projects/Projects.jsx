@@ -17,7 +17,7 @@ const Projects = ({ theme }) => {
   return (
     <div id="projects">
       <div id="Experience" className="mt-20 gap-7 flex flex-col items-center justify-center  md:mt-4 ">
-        <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl lg:text-6xl sm:text-5xl font-bold mb-8`}>
+        <div id="header" className={`${theme.theme === "dark" ? commonStyles.darkGradient : commonStyles.lightGradient} text-7xl leading-normal lg:text-6xl sm:text-5xl font-bold mb-8`}>
           Projects
         </div>
         <motion.div id="cards" className="flex flex-wrap justify-center items-center gap-36 md:gap-16 xs:gap-8 " initial="hidden" variants={containerVariants} whileInView="visible">
