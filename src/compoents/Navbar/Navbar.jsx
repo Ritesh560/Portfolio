@@ -1,10 +1,11 @@
 import { useState } from "react"
 import UseThemeSwitcher from "../../hooks/useThemeSwitcher"
-import { DarkMode, FacebookLogoOutline, GithubLogo, LightMode, LinkdinLogo, TwitterLogo } from "../../libs/icons/icon"
+import { DarkMode, FacebookLogoOutline, GithubLogo, GithubLogoOutline, InstagramLogoOutline, LightMode, LinkdinLogo, LinkdinLogoOutline, TwitterLogo, TwitterLogoOutline } from "../../libs/icons/icon"
 import { darkTheme, lightTheme } from "../../libs/themes/constants"
 import { urls } from "../constants"
 import { NavComponents } from "./components/constants"
 import MobileNavbar from "./components/mobileNavbar/mobileNavbar"
+import styles from "./Navbar.module.scss"
 
 const Navbar = ({ theme, setTheme }) => {
   const [mode, setMode] = UseThemeSwitcher()
@@ -37,20 +38,23 @@ const Navbar = ({ theme, setTheme }) => {
             </div>
           ))}
         </div>
-        <div className="flex items-center gap-6 h-8 ">
+        <div className={`${theme.theme === "dark" ? styles.logoDark : styles.logoLight} flex items-center gap-6 h-8`}>
           <a href={urls?.linkdin} target="_blank" rel="noopener noreferrer">
-            <LinkdinLogo className="scale-150 hover:opacity-60" />
+            <LinkdinLogoOutline className="h-8" />
           </a>
           <a href={urls?.github} target="_blank" rel="noopener noreferrer">
-            <GithubLogo className=" scale-150 text-dark dark:text-light hover:opacity-60" />
+            <GithubLogoOutline className="h-8 " />
           </a>
           <a href={urls?.twitter} target="_blank" rel="noopener noreferrer">
-            <TwitterLogo className="scale-150 hover:opacity-60" />
+            <TwitterLogoOutline className="h-8" />
+          </a>
+          <a href={urls?.instagram} target="_blank" rel="noopener noreferrer">
+            <InstagramLogoOutline className="h-8" />
+          </a>
+          <a href={urls?.facebook} target="_blank" rel="noopener noreferrer">
+            <FacebookLogoOutline className="h-8" />
           </a>
 
-          <a href={urls?.facebook} target="_blank" rel="noopener noreferrer">
-            <FacebookLogoOutline className="scale-150 h-5 hover:fill-black dark:hover:fill-white" />
-          </a>
           {theme === darkTheme ? <LightMode className=" cursor-pointer hover:fill-light dark:hover:fill-white" onClick={handleLightMode} /> : <DarkMode className=" cursor-pointer hover:fill-black" onClick={handleDarkMode} />}
         </div>
       </div>
