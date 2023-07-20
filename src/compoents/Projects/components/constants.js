@@ -7,18 +7,18 @@ import BlogHub from "../../../libs/icons/assets/icons/blogHub.jpg"
 
 export const projects = [
   {
+    pic: BlogHub,
+    name: "BlogHub",
+    description: "BlogHub is a comprehensive online blogging platform. It features personal blog pages, enables users to create new blogs, and includes a following system for bloggers. Leveraging React and Redux with a responsive and intuitive interface. BlogHub is designed to provide an engaging and accessible platform for bloggers and readers to connect and share their ideas.",
+    link: "https://bloghub-one.vercel.app/",
+    github: "https://github.com/Ritesh560/React-Blogging-app",
+  },
+  {
     pic: WordPic,
     name: "WordPic",
     description: "A dynamic React web app that utilizes machine learning to generate images based on user prompts. Created using React, SASS, NodeJs, Mongodb, ExpressJs. The app includes features such as image liking and search functionality, enhancing the user experience. ",
     link: "https://word-pic.vercel.app/",
     github: "https://github.com/Ritesh560/WordPic",
-  },
-  {
-    pic: ChatZone,
-    name: "ChatZone",
-    description: "ChatZone, an advanced chat application using React for the frontend and NodeJS, Express, and MongoDB for the backend. Integrated Socket.io for seamless real-time communication, ensuring instant messaging capabilities. Leveraged cutting-edge technologies and best practices for a highly functional and user-friendly chat experience.",
-    link: "https://chatzone.vercel.app/",
-    github: "https://github.com/Ritesh560/React-Chat-App",
   },
   {
     pic: BRMeal,
@@ -28,11 +28,11 @@ export const projects = [
     github: "https://github.com/Ritesh560/BRMeal",
   },
   {
-    pic: BlogHub,
-    name: "BlogHub",
-    description: "BlogHub is a comprehensive online blogging platform. It features personal blog pages, enables users to create new blogs, and includes a following system for bloggers. Leveraging React and Redux with a responsive and intuitive interface. BlogHub is designed to provide an engaging and accessible platform for bloggers and readers to connect and share their ideas.",
-    link: "https://bloghub-one.vercel.app/",
-    github: "https://github.com/Ritesh560/React-Blogging-app",
+    pic: ChatZone,
+    name: "ChatZone",
+    description: "ChatZone, an advanced chat application using React for the frontend and NodeJS, Express, and MongoDB for the backend. Integrated Socket.io for seamless real-time communication, ensuring instant messaging capabilities. Leveraged cutting-edge technologies and best practices for a highly functional and user-friendly chat experience.",
+    link: "https://chatzone.vercel.app/",
+    github: "https://github.com/Ritesh560/React-Chat-App",
   },
   {
     pic: AINews,
