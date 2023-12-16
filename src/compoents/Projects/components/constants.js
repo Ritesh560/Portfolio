@@ -4,6 +4,7 @@ import ChatZone from "../../../libs/icons/assets/icons/chatZone.jpg"
 import BRMeal from "../../../libs/icons/assets/icons/BRMeals.jpg"
 import AINews from "../../../libs/icons/assets/icons/AINews.jpg"
 import BlogHub from "../../../libs/icons/assets/icons/blogHub.jpg"
+import DataSeeker from "../../../libs/icons/assets/icons/data_seeker.png"
 
 export const projects = [
   {
@@ -14,18 +15,18 @@ export const projects = [
     github: "https://github.com/Ritesh560/React-Blogging-app",
   },
   {
-    pic: WordPic,
-    name: "WordPic",
-    description: "A dynamic React web app that utilizes machine learning to generate images based on user prompts. Created using React, SASS, NodeJs, Mongodb, ExpressJs. The app includes features such as image liking and search functionality, enhancing the user experience. ",
-    link: "https://word-pic.vercel.app/",
-    github: "https://github.com/Ritesh560/WordPic",
-  },
-  {
     pic: BRMeal,
     name: "BRMeals",
     description: "BRMeals is a fully functional online food ordering website, built from scratch using HTML, CSS, and JavaScript. The website features a user-friendly menu page, order page, home page, contact page, about page, and online table booking page. By leveraging my skills in front-end development.",
     link: "https://ritesh560.github.io/BRMeal/",
     github: "https://github.com/Ritesh560/BRMeal",
+  },
+  {
+    pic: DataSeeker,
+    name: "DataSeeker",
+    description: "DataSeeker is a user-friendly web application designed for efficient data analysis through SQL queries. With an intuitive interface, users can seamlessly write and execute SQL queries within the built-in editor. The platform offers diverse sets of data for users to explore, empowering them to gain insights and make informed decisions.",
+    link: "https://dataseeker.vercel.app/",
+    github: "https://github.com/Ritesh560/DataSeeker",
   },
   {
     pic: ChatZone,
@@ -35,12 +36,19 @@ export const projects = [
     github: "https://github.com/Ritesh560/React-Chat-App",
   },
   {
-    pic: AINews,
-    name: "AINews",
-    description: "AINews is an innovative news website that utilizes AI technology to deliver the latest news through voice commands. By integrating AI tools, users can easily access up-to-date news content simply by speaking their commands. The website offers a seamless and intuitive user experience, providing an efficient way to stay informed.",
-    link: "https://61fa67be6c4950054c15d620--goofy-mcnulty-28b96f.netlify.app/",
-    github: "https://github.com/Ritesh560/ai-news-app",
+    pic: WordPic,
+    name: "WordPic",
+    description: "A dynamic React web app that utilizes machine learning to generate images based on user prompts. Created using React, SASS, NodeJs, Mongodb, ExpressJs. The app includes features such as image liking and search functionality, enhancing the user experience. ",
+    link: "https://word-pic.vercel.app/",
+    github: "https://github.com/Ritesh560/WordPic",
   },
+  // {
+  //   pic: AINews,
+  //   name: "AINews",
+  //   description: "AINews is an innovative news website that utilizes AI technology to deliver the latest news through voice commands. By integrating AI tools, users can easily access up-to-date news content simply by speaking their commands. The website offers a seamless and intuitive user experience, providing an efficient way to stay informed.",
+  //   link: "https://61fa67be6c4950054c15d620--goofy-mcnulty-28b96f.netlify.app/",
+  //   github: "https://github.com/Ritesh560/ai-news-app",
+  // },
   {
     pic: Drumkit,
     name: "Drumkit",
