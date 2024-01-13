@@ -6,6 +6,7 @@ import AINews from "../../../libs/icons/assets/icons/AINews.jpg"
 import BlogHub from "../../../libs/icons/assets/icons/blogHub.jpg"
 import DataSeeker from "../../../libs/icons/assets/icons/data_seeker.png"
 import ShopSphere from "../../../libs/icons/assets/icons/shop-sphere.png"
+import PDAnalyzer from "../../../libs/icons/assets/icons/parkinson-disease-analyser.png"
 
 export const projects = [
   {
@@ -49,6 +50,13 @@ export const projects = [
     description: "A dynamic React web app that utilizes machine learning to generate images based on user prompts. Created using React, SASS, NodeJs, Mongodb, ExpressJs. The app includes features such as image liking and search functionality, enhancing the user experience. ",
     link: "https://word-pic.vercel.app/",
     github: "https://github.com/Ritesh560/WordPic",
+  },
+  {
+    pic: PDAnalyzer,
+    name: "PDAnalyzer",
+    description: "PDAnalyzer is a Python project dedicated to Parkinson's Disease detection through an insightful exploration of ten machine learning algorithms. Leveraging scikit-learn and XGBoost, this project emphasizes the significance of meticulous model selection, offering valuable insights for the advancement of Parkinson's Disease diagnosis and treatment research.",
+    link: "https://github.com/Ritesh560/parkinsons_disease_prediction",
+    github: "https://github.com/Ritesh560/parkinsons_disease_prediction",
   },
   {
     pic: AINews,
