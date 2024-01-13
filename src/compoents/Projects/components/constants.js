@@ -5,6 +5,8 @@ import BRMeal from "../../../libs/icons/assets/icons/BRMeals.jpg"
 import AINews from "../../../libs/icons/assets/icons/AINews.jpg"
 import BlogHub from "../../../libs/icons/assets/icons/blogHub.jpg"
 import DataSeeker from "../../../libs/icons/assets/icons/data_seeker.png"
+import ShopSphere from "../../../libs/icons/assets/icons/shop-sphere.png"
+import PDAnalyzer from "../../../libs/icons/assets/icons/parkinson-disease-analyser.png"
 
 export const projects = [
   {
@@ -13,6 +15,13 @@ export const projects = [
     description: "BlogHub is a comprehensive online blogging platform. It features personal blog pages, enables users to create new blogs, and includes a following system for bloggers. Leveraging React and Redux with a responsive and intuitive interface. BlogHub is designed to provide an engaging and accessible platform for bloggers and readers to connect and share their ideas.",
     link: "https://bloghub-one.vercel.app/",
     github: "https://github.com/Ritesh560/React-Blogging-app",
+  },
+  {
+    pic: ShopSphere,
+    name: "ShopSphere",
+    description: "ShopSphere is a dynamic e-commerce website offering a curated shopping experience. With user-friendly item categorization, intuitive basket management, and a secure checkout system, Shopsphere transforms online shopping. Built with Express.js, MongoDB, and React, it provides a seamless and responsive platform for users to explore and purchase products effortlessly.",
+    link: "https://shopspheres.vercel.app/",
+    github: "https://github.com/Ritesh560/ShopSphere",
   },
   {
     pic: BRMeal,
@@ -42,13 +51,20 @@ export const projects = [
     link: "https://word-pic.vercel.app/",
     github: "https://github.com/Ritesh560/WordPic",
   },
-  // {
-  //   pic: AINews,
-  //   name: "AINews",
-  //   description: "AINews is an innovative news website that utilizes AI technology to deliver the latest news through voice commands. By integrating AI tools, users can easily access up-to-date news content simply by speaking their commands. The website offers a seamless and intuitive user experience, providing an efficient way to stay informed.",
-  //   link: "https://61fa67be6c4950054c15d620--goofy-mcnulty-28b96f.netlify.app/",
-  //   github: "https://github.com/Ritesh560/ai-news-app",
-  // },
+  {
+    pic: PDAnalyzer,
+    name: "PDAnalyzer",
+    description: "PDAnalyzer is a Python project dedicated to Parkinson's Disease detection through an insightful exploration of ten machine learning algorithms. Leveraging scikit-learn and XGBoost, this project emphasizes the significance of meticulous model selection, offering valuable insights for the advancement of Parkinson's Disease diagnosis and treatment research.",
+    link: "https://github.com/Ritesh560/parkinsons_disease_prediction",
+    github: "https://github.com/Ritesh560/parkinsons_disease_prediction",
+  },
+  {
+    pic: AINews,
+    name: "AINews",
+    description: "AINews is an innovative news website that utilizes AI technology to deliver the latest news through voice commands. By integrating AI tools, users can easily access up-to-date news content simply by speaking their commands. The website offers a seamless and intuitive user experience, providing an efficient way to stay informed.",
+    link: "https://61fa67be6c4950054c15d620--goofy-mcnulty-28b96f.netlify.app/",
+    github: "https://github.com/Ritesh560/ai-news-app",
+  },
   {
     pic: Drumkit,
     name: "Drumkit",
