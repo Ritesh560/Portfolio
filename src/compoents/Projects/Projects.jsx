@@ -28,7 +28,7 @@ const Projects = ({ theme }) => {
               </a>
               <div id="text" className=" text-left w-full px-3 ">
                 <h3 className=" text-[#005996] text-[18px] font-semibold">{project?.name}</h3>
-                <p className="text-[14px] text-[#000000] font-normal">{project?.description}</p>
+                <p className="text-[14px] text-[#000000] font-[450]">{project?.description}</p>
               </div>
               <div id="action_button" className="w-full mt-auto p-4 flex items-center justify-between text-dark">
                 <a href={project?.link} target="_blank" rel="noopener noreferrer" id="project_link" className=" py-2 px-4 gap-10 xs:gap-5 flex items-center font-semibold border border-solid border-dark rounded-md hover:text-light hover:bg-dark">
